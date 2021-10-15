@@ -4,7 +4,7 @@ const { clog } = require('./middleware/clog.js');
 const api = require('./routes/index.js');
 // make route to notes.html page from index.html page 
 
-const PORT = process.env.port || 3001;
+const port = process.env.PORT || 3001;
 
 const app = express();
 
@@ -20,4 +20,4 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html'
 
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/pages/notes.html')));
 
-app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT}`));
+app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
