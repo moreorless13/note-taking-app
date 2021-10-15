@@ -4,7 +4,6 @@
 
 - [License](#License)
 - [Description](#Description)
-- [Installation](#Installation)
 - [Instructions](#Instructions)
 - [Tests](#Tests)
 - [Questions](#Questions)
@@ -14,13 +13,9 @@
 
 * A simple express app to write notes with.
     
-## Installation:
-```
-npm i
-```
 ## Instructions:
 ```
-npm run start
+Live app: https://safe-crag-10598.herokuapp.com/
 ```
      
 ## Tests:
