@@ -18,5 +18,3 @@ Live app: https://safe-crag-10598.herokuapp.com/
 ## Questions:
 
 * GitHub: https://github.com/moreorless13
-
-* Email: 
