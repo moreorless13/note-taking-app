@@ -2,10 +2,8 @@
 
 # Table of Contents
 
-- [License](#License)
 - [Description](#Description)
 - [Instructions](#Instructions)
-- [Tests](#Tests)
 - [Questions](#Questions)
 
     
@@ -16,11 +14,6 @@
 ## Instructions:
 ```
 Live app: https://safe-crag-10598.herokuapp.com/
-```
-     
-## Tests:
-```
-npm run test
 ```
 ## Questions:
 
