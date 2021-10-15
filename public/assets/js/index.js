@@ -146,6 +146,8 @@ const renderNoteList = async (notes) => {
         'text-danger',
         'delete-note'
       );
+      delBtnEl.setAttribute('data-bs-toggle', 'tooltip');
+      delBtnEl.setAttribute('title', 'Delete Note');
       delBtnEl.addEventListener('click', handleNoteDelete);
 
       liEl.append(delBtnEl);
@@ -161,6 +163,8 @@ const renderNoteList = async (notes) => {
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
+    li.setAttribute('data-bs-toggle', 'tooltip');
+    li.setAttribute('title', JSON.stringify(note.text));
 
     noteListItems.push(li);
   });
